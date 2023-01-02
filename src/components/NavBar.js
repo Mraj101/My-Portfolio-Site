@@ -8,6 +8,7 @@ import Nav from 'react-bootstrap/Nav'
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/nav-icon2.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
+import logo from "../assets/img/logo.svg"
 
 const NavBar = () => {
   const [activeLink,setActiveLink]=useState('home')
@@ -37,7 +38,7 @@ const NavBar = () => {
     <Navbar expand="lg" className={scrolled? "scrolled":""}>
       <Container>
         <Navbar.Brand href="#home">
-            <img src={''} alt="Logo" />
+            <img src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
