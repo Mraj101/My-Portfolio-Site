@@ -38,7 +38,7 @@ const NavBar = () => {
     <Navbar expand="lg" className={scrolled? "scrolled":""}>
       <Container>
         <Navbar.Brand href="#home">
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
