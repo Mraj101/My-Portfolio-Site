@@ -127,7 +127,8 @@ span.navbar-text {
 .social-icon a {
     width: 42px;
     height: 42px;
-    background: rgba(217, 217, 217, 0.1);
+    background: rgba(141, 135, 135, 0.116);
+    filter: brightness(0) saturate(100%) invert(10%) sepia(77%) saturate(4%) hue-rotate(3deg) brightness(1000%) contrast(86%);
     display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
@@ -150,12 +151,12 @@ span.navbar-text {
     transform: scale(1);
 }
 .social-icon a img {
-	width: 40%;
+	width: 45%;
 	z-index: 1;
 	transition: 0.3s ease-in-out;
 }
 .social-icon a:hover img {
-	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+	filter: brightness(10%) saturate(100%) invert(0%) sepia(97%) saturate(98%) hue-rotate(6deg) brightness(95%) contrast(86%);
 }
 .navbar-text button {
   font-weight: 700;
@@ -294,7 +295,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-/*.banner img {
+ .banner img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: #10163f;
   animation: updown 3s linear infinite;
 }
 @keyframes updown {
@@ -308,7 +314,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         transform: translateY(-20px);
     }
 }
-.txt-rotate > .wrap {
+/*.txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
 

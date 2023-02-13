@@ -4,6 +4,8 @@ import  Row  from 'react-bootstrap/Row'
 import  Col  from 'react-bootstrap/Col'
 import { ArrowRightCircle } from 'react-bootstrap-icons'
 import headerImg from "../assets/img/header-img.svg"
+import mirajIMG from "../assets/img/miraj.jpg"
+
 
 
 const Banner = () => {
@@ -18,7 +20,7 @@ const Banner = () => {
                     <button onClick={()=>{console.log("hi")}}>Lets connect</button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
-                   <img src={headerImg} alt="header img" />
+                        <img src={mirajIMG} alt="header img" />
                 </Col>
             </Row>
         </Container>
