@@ -13,8 +13,8 @@ import { useState,useEffect } from 'react'
 
 const Banner = () => {
   const [loop,setLoop]=useState(0);
-  const [delta,setDelta]=useState(100-(Math.random()*20%90));
-  const [text,setText]=useState('')
+  const [delta,setDelta]=useState(100);
+  const [text,setText]=useState('');
   const [isDeleting,setIsDeleting]=useState(false);
 
   const rotateText=['welcome','Web Dev','Software Engineer'];
@@ -22,7 +22,7 @@ const Banner = () => {
   useEffect(()=>{
     let ticker=setInterval(() => {
       tick();
-    }, delta);
+    },delta);
 
     return ()=>{clearInterval(ticker)};
 
@@ -36,7 +36,7 @@ const Banner = () => {
      setText(updatedText);
 
      if(isDeleting){
-        setDelta((prevDelta)=>prevDelta/2.3);
+        setDelta((prevDelta)=>prevDelta/3);
      }
      if(!isDeleting && updatedText === fullText){
       setIsDeleting(true);
