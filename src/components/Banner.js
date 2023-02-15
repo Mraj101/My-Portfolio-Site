@@ -36,7 +36,7 @@ const Banner = () => {
      setText(updatedText);
 
      if(isDeleting){
-        setDelta((prevDelta)=>prevDelta/3);
+        setDelta((prevDelta)=>prevDelta/2);
      }
      if(!isDeleting && updatedText === fullText){
       setIsDeleting(true);
@@ -57,7 +57,6 @@ const Banner = () => {
                 <Col xs={12} md={6} xl={7}>
                     <span className='tagline'>Welcome to my portfolio</span> 
                     <h1>{`Hasnain Ahmed Miraj`}<span className='h2'>        {text}</span></h1>
-                    <br />
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, nesciunt.</p>
                     <button onClick={()=>{console.log("hi")}}>Lets connect<ArrowRightCircle></ArrowRightCircle></button>
                 </Col>
