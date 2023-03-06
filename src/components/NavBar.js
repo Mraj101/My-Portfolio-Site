@@ -50,9 +50,9 @@ const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-                <a href=""><img src={navIcon1} alt="" /></a>
+                <a href="https://www.linkedin.com/in/hasnain-miraj-74b097237/" target="_blank"><img src={navIcon1} alt="Linked in Icon" /></a>
                 {/* <a href=""><img src={navIcon2} alt="" /></a> */}
-                <a href=""><img src={gitIcon} alt="" /></a>
+                <a href="https://github.com/Mraj101" target="_blank"><img src={gitIcon} alt="this is git icon" /></a>
             </div>
             <button className='vvd' onClick={()=>{console.log('connect')}}>Lets Connect</button>
           </span>

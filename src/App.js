@@ -16,7 +16,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Contact/>
-      <SkillProgressBar/>
+      <SkillProgressBar bar={75}/>
     </div>
   );
 }
