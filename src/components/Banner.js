@@ -15,6 +15,7 @@ const Banner = () => {
 
   const rotateText = ["welcome", "Web Dev", "Software Engineer"];
   let period = 2000;
+  
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
@@ -46,6 +47,7 @@ const Banner = () => {
       setDelta(100);
     }
   };
+  
   return (
     <section className="banner" id="home">
       <Container>
