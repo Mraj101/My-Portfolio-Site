@@ -44,7 +44,7 @@ export const Container = styled.section`
     text-align: center;
     img {
       margin-top: 2rem;
-      width: 100%;
+      height:500px;
       filter: grayscale(1);
       transition: filter 0.5s;
       &:hover {
