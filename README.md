@@ -1,9 +1,4 @@
-# Portfólio João Túlio
-
-Este projeto foi criado com CRA (Create React App).
-
-Este é meu site para me apresentar, aqui coloco minhas habilidades, portfólio, e formas de contato.
-
+# portfolio Hasnain Ahmed Miraj
 
 ## Tecnologias usadas:
 - React
