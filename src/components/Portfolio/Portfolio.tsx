@@ -149,9 +149,10 @@ export function Portfolio(){
             </div>
             <footer>
               <ul className="tech-list">
-                <li>React</li>
-                <li>javascript</li>
+                <li>Django</li>
+                <li>Html</li>
                 <li>css</li>
+                <li>javascript</li>
               </ul>
             </footer>
           </div>
